@@ -1,8 +1,400 @@
-<!DOCTYPE html><html><head><meta name="generator" content="Hexo 3.8.0"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f9fa"><!--[if IE]><link rel="icon" href="//favicon.ico"><![endif]--><link rel="alternate" href="/api/atom.xml" type="application/atom+xml" title="Atom"><title>Loading...</title><link href="https://unpkg.com/bootstrap@4.1.1/dist/css/bootstrap.min.css" rel="stylesheet"><link href="https://unpkg.com/@fortawesome/fontawesome-free@5.3.1/css/all.min.css" rel="stylesheet"><script src="https://unpkg.com/gitalk@1.4.0/dist/gitalk.min.js"></script><script src="https://unpkg.com/markdown-it@8.4.2/dist/markdown-it.min.js"></script><script src="https://unpkg.com/mathjax@2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script src="https://unpkg.com/moment@2.22.2/min/moment.min.js"></script><link href="https://unpkg.com/TagCloud@1.2.0/dist/tagcloud.css" rel="stylesheet"><script src="https://unpkg.com/TagCloud@1.2.0/dist/tagcloud.js"></script><script src="https://unpkg.com/jquery@3.3.1/dist/jquery.slim.min.js"></script><link href="https://unpkg.com/@fancyapps/fancybox@3.5.0/dist/jquery.fancybox.min.css" rel="stylesheet"><script src="https://unpkg.com/@fancyapps/fancybox@3.5.0/dist/jquery.fancybox.min.js"></script><link href="https://unpkg.com/dplayer@1.25.0/dist/DPlayer.min.css" rel="prefetch" as="style"><link href="https://unpkg.com/dplayer@1.25.0/dist/DPlayer.min.css" rel="stylesheet"><link href="https://unpkg.com/dplayer@1.25.0/dist/DPlayer.min.js" rel="preload" as="script"><script src="https://unpkg.com/dplayer@1.25.0/dist/DPlayer.min.js"></script><script src="https://unpkg.com/vue@2.5.17/dist/vue.min.js"></script><script src="https://unpkg.com/vuex@3.0.1/dist/vuex.min.js"></script><script src="https://unpkg.com/vue-router@3.0.1/dist/vue-router.min.js"></script><link href="https://unpkg.com/bootstrap-vue@2.0.0-rc.11/dist/bootstrap-vue.min.css" rel="stylesheet"><script src="https://unpkg.com/bootstrap-vue@2.0.0-rc.11/dist/bootstrap-vue.min.js"></script><link href="/css/404.5818c96b.css" rel="prefetch"><link href="/css/archives.48a2a80d.css" rel="prefetch"><link href="/css/chunk-048a6100.30650593.css" rel="prefetch"><link href="/css/home.70239259.css" rel="prefetch"><link href="/css/pages.55c53c65.css" rel="prefetch"><link href="/js/404.fc83aa33.js" rel="prefetch"><link href="/js/archives.2c9c2d63.js" rel="prefetch"><link href="/js/chunk-048a6100.d9d4777a.js" rel="prefetch"><link href="/js/chunk-2d0ae9a5.e44676a5.js" rel="prefetch"><link href="/js/chunk-2d0d3114.df9e77b0.js" rel="prefetch"><link href="/js/chunk-2d0d3fd5.d0023fd6.js" rel="prefetch"><link href="/js/chunk-2d216c2f.ead8804b.js" rel="prefetch"><link href="/js/home.e0180068.js" rel="prefetch"><link href="/js/pages.888e13b7.js" rel="prefetch"><link href="/js/related.5f45b55b.js" rel="prefetch"><link href="/js/tags.1ba072af.js" rel="prefetch"><link href="/css/app.6562d8db.css" rel="preload" as="style"><link href="/js/app.cc375f1b.js" rel="preload" as="script"><link href="/js/chunk-vendors.cfde5b22.js" rel="preload" as="script"><link href="/css/app.6562d8db.css" rel="stylesheet"><link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#4DBA87"><meta name="apple-mobile-web-app-capable" content="no"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="hexo-theme-amber"><link rel="apple-touch-icon" href="/img/icons/apple-touch-icon-152x152.png"><link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#4DBA87"><meta name="msapplication-TileImage" content="/img/icons/msapplication-icon-144x144.png"><meta name="msapplication-TileColor" content="#000000"></head><body><noscript><main role="main" class="container"><h1 class="mt-5"><img src="/img/javascript.png" width="140">Enable JavaScript</h1><p class="lead">We're sorry but this blog doesn't work properly without JavaScript enabled. Please enable it to continue.</p></main></noscript><div id="app"><img src="/img/loading.gif" class="rubik"><style>.rubik {
-          width: 64px;
-          height: 64px;
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-        }</style></div><script src="/js/chunk-vendors.cfde5b22.js"></script><script src="/js/app.cc375f1b.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.8.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"ora.yanghaa.ml","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="倚天GM命令全集 Go 移动格式：/go #zone x y人物名称   2 修罗村        3 精灵村           4 矮人村           5 拉逊沙漠         6 新人修炼场100 混乱森林    101 石之沙漠       102 蒂尔旷野       103 吉尼草原       104 特伦特森林105 矮人矿井    106 秘密地牢1层    107">
+<meta property="og:type" content="article">
+<meta property="og:title" content="yitian.md">
+<meta property="og:url" content="http://ora.yanghaa.ml/2019/03/10/yitian-md/index.html">
+<meta property="og:site_name" content="超材料记事本">
+<meta property="og:description" content="倚天GM命令全集 Go 移动格式：/go #zone x y人物名称   2 修罗村        3 精灵村           4 矮人村           5 拉逊沙漠         6 新人修炼场100 混乱森林    101 石之沙漠       102 蒂尔旷野       103 吉尼草原       104 特伦特森林105 矮人矿井    106 秘密地牢1层    107">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-03-10T10:16:13.219Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="yitian.md">
+<meta name="twitter:description" content="倚天GM命令全集 Go 移动格式：/go #zone x y人物名称   2 修罗村        3 精灵村           4 矮人村           5 拉逊沙漠         6 新人修炼场100 混乱森林    101 石之沙漠       102 蒂尔旷野       103 吉尼草原       104 特伦特森林105 矮人矿井    106 秘密地牢1层    107">
+
+<link rel="canonical" href="http://ora.yanghaa.ml/2019/03/10/yitian-md/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>yitian.md | 超材料记事本</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">超材料记事本</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">by Yanghaa</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope="" itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://ora.yanghaa.ml/2019/03/10/yitian-md/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Yanghaa">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="超材料记事本">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          yitian.md
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2019-03-10 18:09:09 / 修改时间：18:16:13" itemprop="dateCreated datePublished" datetime="2019-03-10T18:09:09+08:00">2019-03-10</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>倚天GM命令全集</p>
+<p>Go 移动<br>格式：/go #zone x y人物名称</p>
+<p>  2 修罗村        3 精灵村           4 矮人村           5 拉逊沙漠         6 新人修炼场<br>100 混乱森林    101 石之沙漠       102 蒂尔旷野       103 吉尼草原       104 特伦特森林<br>105 矮人矿井    106 秘密地牢1层    107 秘密地牢2层    108 秘密地牢3层    109 精灵猎场<br>110 淡水湖      111 金字塔1层      112 金字塔2层      113 金字塔3层      114 混乱地牢1层<br>115 混乱地牢2层 116 混乱地牢3层    117 秘密地牢4层    118 秘密地牢5层    119 奈潘城外<br>120 死亡之谷(外)121 死亡之谷(内)   122 火龙洞        1028 奈潘城内      2000 战前集合地</p>
+<p>附：新地图的代码(如果您有增加新地图,输入/go时请加坐标才可以使用)<br>123 金字塔4层   124 法师之家       125 混乱地牢4层   126 王者之家        127 新龙洞<br>128 死灵岛      129 精灵猎场       130 淡水湖      131~4 混乱地牢N层,无怪</p>
+<p>说明：<br>/go #2  就是到2号地图(修罗村)<br>/go #120 300 300  就是到死亡之谷(外)修理处<br>/go 玩家 到玩家身边.注意这个命令必须是该玩家与你在同一个地图才可以使用,可以先/pf 玩家</p>
+<p>常用的命令</p>
+<p>/shop                   在线手动更新商店物品数量<br>/pu                     /pureger的简写，清除当前屏幕上所有怪物，,NPC不可清除<br>/score                  显示你的服务器运行了多长时间<br>/not  内容              广播，所有地图里的人都能看见，GM发布游戏公告使用<br>/znot 内容              广播，限于当前地图有效<br>/tran 人物名称          /transfer的简写，召唤(同一地图内使用)，对方无提示确认<br>/sum  人物名称          召唤(不同一地图内使用)，需要对方确认<br>/dc   人物名称          踢玩家下线<br>/not  内容              广播，所有地图里的人都能看见，GM发布游戏公告使用<br>/znot 内容              同一地图里的人都可以看见<br>/zreset .               增加自己所在地图的怪物(BOSS刚死,使用此命令,BOSS直接更新)<br>/zreset *               增加所有地图的怪物<br>/mute 人名 时间          禁止人物发言  3600(时间) 为一小时. 默认为一小时<br>/u 人名                 /unaffect的简写，恢复使用者的状态,包括所有魔法,禁言，技能,犯罪状态(不清除犯罪值)<br>/siege                  开放攻城，删除当前服务器目录下siegetime.dat文件，再次输入siege将立即取消攻城<br>/gm                     GM隐身模式<br>/tree move 坐标         移动树木到指定坐标附近,不带坐标将直接清除当前屏幕所有树木<br>/shutdown               服务器重新启动(部分gm号可以用)<br>/pf 人名                普通人只是显示是否在线，GM则显示目标在哪个地图<br>/castle                 开攻城后，用这个命令观察.<br>/it 人名                /itempurge的简写 清空一个玩家物品（不包括钱）<br>/skillban  人名         当某玩家没有加入对应公会,而GM直接将魔法或技能刷出时,玩家该项将是黑色不可用状态,此时只需再次加入该公会,然后GM使用此命令清除黑色状态(要恢复的话目前的方法是到人物的数据文件，在魔法数据部分有个02改成00便可)<br>/who .                  GM使用时,显示在线人数和当前地图人数<br>/sh .                   等同于!<br>/nosh                   将看不对别人消息.再次输入取消屏蔽状态<br>/clan                   显示帮助信息<br>/oload                  此命令用于刷出目标. 无实际使用意义<br>/reload                 用于重新加载服务器参数.比如修改了怪物参数..使用后更新,注意,当前地图上所有怪物将是旧参数.必须重新刷出的才是新设置后的参数怪物将是旧参数.必须重新刷出的才是新设置后的参数<br>/castleking 帮会名称    手动设置城主帮会拥有,<br>/castleking gm  设置城为gm这个帮会<br>/castledamage           设置攻城参数.无实际使用意义<br>/resetquest 人名        这是早期防止使用钓鱼外挂的问题设置命令,无实际使用意义<br>/majiang                查看麻将排行<br>/uhuhu                  官方正版验证<br>/sneak 人物名称         使用后进入无形状态,比如:你打怪后,怪打不到你,将穿透<br>/excard                 此命令官方作为交易月卡使用<br>/save 人名              手动保存玩家数据<br>/save all               手动保存当前地图所有玩家数据<br>/marry                  是结婚命令，需要在大天使面前使用<br>/divorce                是离婚命令，需要在大天使面前使用<br>/lottery                手动开奖<br>/quit                   退出游戏<br>/set 人名 outlaw 数字   此命令用于设置人物犯罪值.最小3,最大不能超过32767<br>/fury of god            英译为 疯狂的上帝<br>/boot                   不知道如何使用<br>/temp                   不知道如何使用<br>/score                  显示时间（不知道是系统时间还是开了服务端多久）无实际使用意义<br>/yell 内容              世界喊话命令. 仅限于本服使用<br>/money                  当玩家钱负后,修复负钱问题,如果下线,负数将被清零,使用此命令将无效.<br>/restore                加满HP MP<br>/clan new 帮名          组建帮会，组建帮会需要25万elk、25万elk和等级80以上<br>/clan dismiss           解散帮会</p>
+<p>Set 设置<br>格式：/set 人名 设置的类型 设置的等级</p>
+<p>/set ymir str 999       设置ymir力量999<br>/set ymir dex 999       设置ymir敏捷999<br>/set ymir int 999       设置智力999</p>
+<p>/set ymir elk 999       设置ymir上钱加999  可以调21E   21000000000000000000<br>/set ymir dak 999       设置ymir下钱加999  可以调21E   21000000000000000000</p>
+<p>/set ymir race elf      设置ymir变精灵<br>/set ymir race sent     设置ymir变修罗<br>/set ymir race dwarf    设置ymir变矮人<br>/set ymir sex male      设置ymir变男人<br>/set ymir sex female    设置ymir变女人<br>ps：矮人和精灵旧版本没有调换的角色，这些都是通过命令在线更换的，不需要下线，变成别的角色之后若本</p>
+<p>身你穿了甲，拿下甲就会自己变，若你没穿甲时变的，穿上你变成后角色的甲就OK了！当然还有需要注意的是</p>
+<p>若你拿了武器，最好取下来，因为角色变了之后，武器位置有改变，要是不先取下再拿的话，攻击怪物的时候</p>
+<p>MTS会报错！</p>
+<p>/set ymir hp 1000       设置ymir生命值为1000<br>/set ymir mp 1000       设置ymir魔法值为1000</p>
+<p>/set ymir max_hp 1000   设置ymir的生命值为1000<br>/set ymir max_mp 1000   设置ymir的魔法值为1000</p>
+<p>setskill可以缩写 /sets<br>/sets ymir 魔箭 252     设置ymir的小冰调到大师级(250是高手 251是专家 252是大师 )<br>/sets ymir 狂暴术 252   设置ymir的狂暴调到大师级</p>
+<p>新GM命令<br>格式：/a ymir 999       设置ymir等级为999，</p>
+<p>命令 /a（advace命令的简化）修改方法为在MT的0x176a7（8 9 a）<br>位置改原始的 E7 03 00 00 ==999 为你想要的最大等级（换成16进制换位）。<br>此修改可超过999级。至于最多能到多少你可以自己试！小心生命值和魔法值变负数哦！ 另外配合修改人物最</p>
+<p>大生命值和最大魔法值命令修改。</p>
+<p>load命令<br>/iload命令             添加东西到物品栏，可以简写为 /i<br>/i 魔力圣盔甲          添加一件魔力圣到你的物品栏里<br>/i 10 魔力圣盔甲       添加10件魔力圣到你的物品栏里<br>有些因为装备名字跟服务器里的名字不一样，刷不出来，可以直接打编号<br>/i 1 15000            1是数量，必须写，15000的物品编号</p>
+<p>/mload命令            召唤怪物的命令,召唤到你的屏幕范围内，可以简写为 /m<br>/m 高级石头人         召唤高级石头在你的附近<br>/m 10 高级石头人      召唤10个高级石头在你的附近<br>这里有个特例:吉尼草原上著名的女人“娜菲亚”不要打错了.其实原本翻译过来是”娜菲娅”<br>补充：“使者”也是可以用这个命令召唤出来的，不管哪个地图都可以。</p>
+<p>/gload命令            召唤怪物小队的命令，可以简写为 /g</p>
+<p>/g 1                  召唤高级狂战士为首的怪物组<br>/g 2                  召唤堕落魔法师为首的怪物组<br>/g 3                  召唤金色史莱姆为首的怪物组<br>/g 4                  召唤僵尸为首的怪物组</p>
+<p>group.sc内定义的怪物组号</p>
+<p>1         高级狂战士（狂乱战士、狂怒战士、高级狂战士）<br>2         堕落魔法师（野猪巫师、野猪将军、堕落魔法师）<br>3         金色史莱姆（大史莱姆、金色史莱姆）<br>4         僵尸（僵尸、吸血魔王）<br>5         混沌怪（混沌怪、女巫、巫师）<br>6         巫师（黑暗狂战士、巫师）<br>7         蝙蝠王（蝙蝠王、蝙蝠）<br>8         红蜘蛛王（红蜘蛛王、鬼脸蛛、）<br>9         木乃伊首领（木乃伊首领、木乃伊）<br>10        法老（斯芬克斯、法老）<br>11        法老王（斯芬克斯、法老王）<br>12        高级狂战士（狂乱战士、狂怒战士、高级狂战士）<br>13        堕落魔法师（野猪巫师、野猪将军、堕落魔法师）<br>14        金色史莱姆（大史莱姆、金色史莱姆）<br>15        僵尸王（僵尸王、吸血魔王）<br>16        混沌怪（混沌怪、女巫、巫师）<br>17        初级魔法师（初级魔法师、黑暗狂战士）<br>18        混沌魔王（混沌魔王、女巫、巫师）<br>19        美杜沙（美杜沙、史前巨鳄、死魂灵、蜥蜴弓箭手）<br>20        独眼巨人（独眼巨人、蜥蜴弓箭手、死魂灵）<br>21        石像兽（石像兽、蜥蜴弓箭手、地狱犬）<br>22        里奇（里奇、骷髅弓箭手、骷髅护卫）<br>23        利爪兽（利爪兽、骷髅弓箭手、地狱犬）<br>24        海妖（海妖、克雷林）<br>25        骷髅护卫（骷髅护卫、骷髅弓箭手）<br>26        独眼巨人（独眼巨人、蜥蜴弓箭手）<br>27        骷髅魔王（骷髅魔王、骷髅将军、骷髅弓箭手）<br>28        骷髅王（骷髅王、骷髅将军、骷髅弓箭手）<br>29        火龙（火龙、地狱犬、女巫）</p>
+<p>/load系列命令到此告一段落 上面是系统默认的，可以自己添加！</p>
+<p>/oload    是系统物品<br>1         火堆<br>2         树<br>3         树<br>4         树<br>5         树<br>6         城门  （左下至右上）<br>7         城门  （左下至右上）<br>8         城门  （左下至右上）<br>9         城门  （左下至右上）<br>10        城门  （左下至右上）<br>11        城门  （左下至右上）<br>12        城门  （左下至右上）<br>13        城门  （右上至左下）<br>14        城门  （右上至左下）<br>15        城门  （右上至左下）<br>16        城门  （右上至左下）<br>17        城门  （右上至左下）<br>18        城门  （右上至左下）<br>19        城门  （右上至左下）<br>20        内城门（左下至右上）<br>21        内城门（左下至右上）<br>22        内城门（左下至右上）<br>23        内城门（左下至右上）<br>24        内城门（左下至右上）<br>25        木门  （左下至右上）<br>26        木门  （左下至右上）<br>27        木门  （左下至右上）<br>28        木门  （左下至右上）<br>29        木门  （左下至右上）<br>30        木门  （左下至右上）<br>31        木门  （右上至左下）<br>32        木门  （右上至左下）<br>33        木门  （右上至左下）<br>34        木门  （右上至左下）<br>35        木门  （右上至左下）<br>36        木门  （右上至左下）<br>37        大木门（右上至左下）<br>38        大木门（左下至右上）<br>39        隐门石柱</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2018/11/26/Test/" rel="prev" title="Test">
+      <i class="fa fa-chevron-left"></i> Test
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/08/17/Hithesis使用/" rel="next" title="Hithesis使用">
+      Hithesis使用 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Yanghaa</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+  <div class="beian"><a href="http://www.beian.miit.gov.cn" rel="noopener" target="_blank">黑ICP备20000638号-1 </a>
+  </div>
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yanghaa</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/muse.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
